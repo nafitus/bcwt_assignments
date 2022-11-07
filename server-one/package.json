@@ -1,12 +1,15 @@
 {
-  "name": "week1-node",
+  "name": "server-one",
   "version": "1.0.0",
-  "description": "Node practise",
-  "main": "script.js",
+  "description": "server",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon"
   },
   "author": "Nafisul Nazrul",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
